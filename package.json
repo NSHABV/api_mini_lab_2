@@ -1,0 +1,26 @@
+{
+  "name": "api_mini_lab_2",
+  "version": "0.0.1",
+  "description": "- Есть наработка одностраничной формы регистрации/атворизации. Её нужно доработать - Используется библиотека стилей materialize. Рекомендую разобраться в том, как она работает в нашем коде и вообще - В коде много комментариев, которые стоит прочитать. Там подсказки и доп знания по теме - Есть участок с [демонстрационным кодом](https://github.com/MaEgV/api_mini_lab_2/blob/develop/js/main.js#L4). Используюя его и консоль браузера можно быстро и относительно интересно познакомитсья с работой фронтенд приложения - Три части задач: инфраструктурная + JS + верстка (всё, как в реальных проектах)",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "@mui/material": "^5.10.2",
+    "api": "^4.5.2",
+    "http": "^0.0.1-security"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  }
+}
